@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "da5167aa3453524fef700e6f",
+  "owner": "uhqyqq1",
+  "repo": "page-f18dd847f5bea59532b6a54b",
+  "title": "机场推荐",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "f18dd847f5bea59532b6a54b",
+      "a": "机场推荐",
+      "b": "",
+      "entity": "机场推荐",
+      "brand": "机场推荐",
+      "separator": "",
+      "path": "index.html",
+      "hash": "28893b45578aeb3235873d02018a9ad31889e35be939ba6932df2e86121ebc3a",
+      "content": {
+        "keyword1": "机场推荐",
+        "keyword2": "",
+        "primary_entity": "机场推荐",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "机场推荐为您提供专业VPN加速器服务，包括基础版、旗舰版和团队版套餐，支持多设备在线，流媒体解锁及游戏加速优化。官网提供官方客户端下载，稳定高速节点保障您的网络体验。",
+          "AI_DESCRIPTION": "机场推荐为您提供专业VPN加速器服务，包括基础版、旗舰版和团队版套餐，支持多设备在线，流媒体解锁及游戏加速优化。官网提供官方客户端下载，稳定高速节点保障您的网络体验。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --coral: #f36b6b;\n            --warm-white: #f9f4eb;\n            --dark: #2c2c2c;\n            --gray: #555;\n        }\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: system-ui, -apple-system, sans-serif;\n            background: var(--warm-white);\n            color: var(--dark);\n            line-height: 1.7;\n            font-size: 16px;\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 0 16px;\n        }\n        header {\n            background: #fff;\n            padding: 16px 0;\n            position: sticky;\n            top: 0;\n            z-index: 10;\n            border-bottom: 1px solid #eee;\n        }\n        .logo {\n            font-size: 28px;\n            font-weight: 700;\n            color: var(--coral);\n        }\n        main {\n            padding: 40px 0;\n        }\n        h1 {\n            font-size: 2.2rem;\n            color: var(--coral);\n            margin-bottom: 12px;\n            text-align: center;\n        }\n        .intro {\n            background: #fff;\n            padding: 32px;\n            border-radius: 12px;\n            margin-bottom: 40px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n        }\n        .grid {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 32px;\n            margin-bottom: 40px;\n        }\n        @media (min-width: 768px) {\n            .grid {\n                grid-template-columns: 1fr 1fr;\n            }\n        }\n        .plans {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 24px;\n        }\n        @media (min-width: 768px) {\n            .plans {\n                grid-template-columns: repeat(3, 1fr);\n            }\n        }\n        .plan-card {\n            background: #fff;\n            border-radius: 12px;\n            overflow: hidden;\n            box-shadow: 0 4px 15px rgba(0,0,0,0.06);\n            transition: transform 0.3s ease;\n        }\n        .plan-card:hover {\n            transform: translateY(-8px);\n        }\n        .plan-header {\n            padding: 20px 24px;\n            text-align: center;\n            background: linear-gradient(135deg, #fff 0%, #f8f1e3 100%);\n        }\n        .plan-name {\n            font-size: 1.35rem;\n            font-weight: 600;\n            margin-bottom: 8px;\n        }\n        .price {\n            font-size: 1.8rem;\n            font-weight: 700;\n            color: var(--coral);\n            margin-bottom: 4px;\n        }\n        .annual {\n            font-size: 0.95rem;\n            color: #666;\n        }\n        .plan-body {\n            padding: 24px;\n            flex: 1;\n            display: flex;\n            flex-direction: column;\n        }\n        .plan-body ul {\n            list-style: none;\n        }\n        .plan-body li {\n            padding: 10px 0;\n            border-bottom: 1px solid #eee;\n            display: flex;\n            align-items: flex-start;\n        }\n        .plan-body li:last-child {\n            border-bottom: none;\n        }\n        .plan-body li::before {\n            content: \"●\";\n            color: var(--coral);\n            margin-right: 10px;\n            flex-shrink: 0;\n        }\n        .featured {\n            border: 3px solid var(--coral);\n            position: relative;\n        }\n        .featured::after {\n            content: \"最推荐\";\n            position: absolute;\n            top: 16px;\n            right: -36px;\n            background: var(--coral);\n            color: #fff;\n            font-size: 0.75rem;\n            padding: 4px 22px;\n            transform: rotate(45deg);\n            font-weight: 600;\n        }\n        section {\n            margin-bottom: 60px;\n        }\n        h2 {\n            font-size: 1.75rem;\n            color: var(--dark);\n            margin-bottom: 20px;\n            border-bottom: 3px solid #f8e8e8;\n            padding-bottom: 10px;\n        }\n        .scenarios,\n        .guide {\n            background: #fff;\n            padding: 32px;\n            border-radius: 12px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n        }\n        .faq {\n            background: #fff;\n            border-radius: 12px;\n            overflow: hidden;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.05);\n        }\n        details {\n            border-bottom: 1px solid #eee;\n        }\n        details:last-child {\n            border-bottom: none;\n        }\n        summary {\n            padding: 20px 24px;\n            font-weight: 600;\n            cursor: pointer;\n            list-style: none;\n            position: relative;\n        }\n        summary::-webkit-details-marker {\n            display: none;\n        }\n        summary::after {\n            content: \"+\";\n            position: absolute;\n            right: 24px;\n            font-size: 1.6rem;\n            transition: transform 0.3s ease;\n        }\n        details[open] summary::after {\n            transform: rotate(45deg);\n        }\n        .faq-content {\n            padding: 0 24px 20px;\n            color: #444;\n        }\n        .footer-note {\n            text-align: center;\n            padding: 30px 0;\n            font-size: 0.9rem;\n            color: #777;\n        }\n        .btn {\n            display: inline-block;\n            background: var(--coral);\n            color: #fff;\n            padding: 12px 28px;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: 600;\n            margin: 20px 0;\n        }\n        @media (max-width: 640px) {\n            h1 {\n                font-size: 1.9rem;\n            }\n            .intro,\n            .scenarios,\n            .guide {\n                padding: 24px 20px;\n            }\n        }\n    </style>\n\n\n    <header>\n        <div class=\"logo\">机场推荐</div>\n    </header>\n    <main>\n        <h1>机场推荐</h1>\n        \n        <div class=\"intro\">\n            <p>机场推荐是您值得信赖的VPN加速器与机场订阅服务提供商。我们为您精心筛选的高质量节点，提供稳定高速的网络加速体验，帮助您畅享全球内容、无缝流媒体解锁和安全上网。无论日常办公、游戏娱乐还是商务出差，选择机场推荐都能让您的网络体验更上一层楼。</p>\n        </div>\n\n        <section class=\"grid\">\n            <div>\n                <h2>使用场景</h2>\n                <p>机场推荐完美适配多种场景：</p>\n                <ul>\n                    <li>全球流媒体解锁：Netflix、YouTube、Disney+ 等平台畅享高清内容</li>\n                    <li>远程办公：稳定IP 支持多地访问企业网络</li>\n                    <li>在线游戏加速：专线优化降低延迟，提升游戏体验</li>\n                    <li>隐私保护：加密传输保护您的个人信息安全</li>\n                    <li>日常浏览：高速节点确保网页加载流畅</li>\n                </ul>\n            </div>\n            <div>\n                <h2>客户端选择指南</h2>\n                <p>我们提供多种客户端供您选择：</p>\n                <p>Windows / macOS / iOS / Android 客户端，操作简便，内置节点智能切换。官网提供官方下载链接，安全可靠。</p>\n                <a href=\"#\" class=\"btn\">立即下载客户端</a>\n            </div>\n        </section>\n\n        <section>\n            <h2>精选套餐推荐</h2>\n            <div class=\"plans\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-name\">基础版</div>\n                        <div class=\"price\">¥15/月</div>\n                        <div class=\"annual\">按年付仅需 ¥150/年</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <ul>\n                            <li>每月 100GB 极速流量</li>\n                            <li>支持 3 台设备同时在线</li>\n                            <li>解锁基础流媒体</li>\n                            <li>普通线路节点池</li>\n                        </ul>\n                    </div>\n                </div>\n                \n                <div class=\"plan-card featured\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-name\">旗舰版</div>\n                        <div class=\"price\">¥35/月</div>\n                        <div class=\"annual\">按年付仅需 ¥350/年</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <ul>\n                            <li>每月 300GB 极速流量</li>\n                            <li>支持 5 台设备同时在线</li>\n                            <li>全节点原生流媒体解锁</li>\n                            <li>IPLC 专线游戏加速优化</li>\n                            <li>7x24 优先工单支持</li>\n                        </ul>\n                    </div>\n                </div>\n                \n                <div class=\"plan-card\">\n                    <div class=\"plan-header\">\n                        <div class=\"plan-name\">团队版</div>\n                        <div class=\"price\">¥85/月</div>\n                        <div class=\"annual\">按年付仅需 ¥850/年</div>\n                    </div>\n                    <div class=\"plan-body\">\n                        <ul>\n                            <li>每月 1000GB 极速流量</li>\n                            <li>支持 20 台设备同时在线</li>\n                            <li>VIP 专属高带宽节点</li>\n                            <li>支持企业定制路由</li>\n                            <li>专属客户经理服务</li>\n                        </ul>\n                    </div>\n                </div>\n            </div>\n        </section>\n\n        <section class=\"guide\">\n            <h2>操作说明</h2>\n            <ol>\n                <li>访问官网选择适合的套餐并完成支付</li>\n                <li>下载官方客户端（支持多平台）</li>\n                <li>导入订阅链接，自动连接推荐节点</li>\n                <li>开启一键加速模式，享受稳定网络</li>\n                <li>随时查看流量使用情况并续费</li>\n            </ol>\n            <a href=\"#\" class=\"btn\">查看官方下载</a>\n        </section>\n\n        <section class=\"faq\">\n            <h2>常见问题解答</h2>\n            <details>\n                <summary>什么是机场？</summary>\n                <div class=\"faq-content\">机场是中文互联网中对专业VPN/代理服务商的统称，提供高质量节点和稳定加速服务。机场推荐专注为您提供安全、快速的网络解决方案。</div>\n            </details>\n            <details>\n                <summary>基础版和旗舰版主要区别是什么？</summary>\n                <div class=\"faq-content\">基础版适合个人日常使用，每月100GB流量，支持3台设备；旗舰版流量更高（300GB），支持5台设备，同时拥有IPLC游戏加速和7x24优先支持，更适合重度用户。</div>\n            </details>\n            <details>\n                <summary>支持哪些设备使用？</summary>\n                <div class=\"faq-content\">所有套餐均支持 Windows、macOS、iOS、Android 多平台客户端，同时支持3-20台设备同时在线，具体以套餐为准。</div>\n            </details>\n            <details>\n                <summary>如何获取客户端下载？</summary>\n                <div class=\"faq-content\">官网提供官方客户端下载链接，安全可靠。下载后请验证文件完整性，避免使用第三方来源。</div>\n            </details>\n            <details>\n                <summary>售后服务和工单支持如何？</summary>\n                <div class=\"faq-content\">旗舰版及以上套餐提供7x24 优先工单支持，团队版还有专属客户经理服务，问题将在24小时内得到妥善解决。</div>\n            </details>\n            <details>\n                <summary>节点质量和速度如何保证？</summary>\n                <div class=\"faq-content\">我们筛选并定期优化全节点，旗舰版采用IPLC专线，普通用户也能享受高速稳定连接，满足日常使用需求。</div>\n            </details>\n        </section>\n    <section><h2>套餐</h2>{{PLANS_HTML}}</section><section><h2>客户端</h2>{{CLIENTS_HTML}}</section></main>\n    <div class=\"footer-note\">\n        机场推荐 | 官网提供安全客户端下载 | 订阅即刻享受加速服务\n    </div>\n\n",
+          "hash": "0caaa9a35f63082d6e51528b68c34341c054a8e06b754e7ac305bb9b305efc06",
+          "seo": {
+            "title": "机场推荐 - 优质VPN加速器客户端下载与官网",
+            "keywords": "机场推荐, VPN加速器, 机场订阅, 客户端下载, VPN梯子, 加速器",
+            "description": "机场推荐为您提供专业VPN加速器服务，包括基础版、旗舰版和团队版套餐，支持多设备在线，流媒体解锁及游戏加速优化。官网提供官方客户端下载，稳定高速节点保障您的网络体验。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "cmzlk.cn",
+    "host": "p-a6049b4cee.cmzlk.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "603348fd560326228a783b6c5854a899b3e15087cf447d0433d69bb299eea438",
+    "sitemap.xml": "87828288e0fc1bf1bc758ca9b9b4872bbb83fb21aaa58c73ee96b3f172752778",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "163a050d46419f5e23abee2d72a6ecf164291eb7e77274ce2169aa53610a446b",
+    "robots.txt": "cd050bccf120b1324772683b9ad647a99ab094383a78e84efdbdcee26b416436",
+    "210e465fe3daf11ae6ebc90fa891fc53.txt": "61fe6b91da54742e42685029972707a83dfee79accf84c4aafce558bfd0c90c8"
+  },
+  "revision": "1b6e515b38fb63250a04e1b6b3b2a1c75a095789121270be69467c450ca8a3a8"
+}
